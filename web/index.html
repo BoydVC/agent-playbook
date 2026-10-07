@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent Playbook · Boyd's fleet field guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="hero-text">
+    <div class="eyebrow">Field guide · built from @xristafer's bookmarks</div>
+    <h1>Agent Playbook</h1>
+    <p class="lede">The patterns your saved posts on <em>personal agent systems</em>, <em>AI coding</em> and <em>pstack</em> keep teaching, distilled into eleven chapters. Each one is held up against your Grok Bot fleet as it's configured today.</p>
+    <div class="hero-stats" id="heroStats"></div>
+    <p class="method">Every score is the sum of a five-point rubric shown in its chapter (yes = 1, partial = ½, no = 0). Quotes come only from the saved files and are re-checked by the smoke test.</p>
+  </div>
+  <div class="hero-radar">
+    <svg id="radar" viewBox="-50 0 660 560" role="img" aria-label="Fleet maturity radar"></svg>
+    <div class="radar-caption">Fleet maturity by pattern (0–5). Click a spoke to jump to its chapter.</div>
+  </div>
+</header>
+
+<nav class="toc" id="toc"></nav>
+
+<main>
+  <section class="caveat" id="caveat"></section>
+  <div id="chapters"></div>
+
+  <section class="block" id="upgrades">
+    <div class="block-head">
+      <div class="eyebrow">Prioritized</div>
+      <h2>The next 10 upgrades</h2>
+      <p class="sub">Ranked by payoff per minute. Effort: <span class="eff S">S</span> under 30 min · <span class="eff M">M</span> about an hour · <span class="eff L">L</span> half a day or more.</p>
+    </div>
+    <ol class="upgrades" id="upgradeList"></ol>
+  </section>
+
+  <section class="block" id="roster">
+    <div class="block-head">
+      <div class="eyebrow">Appendix A</div>
+      <h2>Fleet roster, as configured</h2>
+      <p class="sub">Persona traits read from each bot's profile.json. Routines from Bot Island's fleet.json.</p>
+    </div>
+    <div class="roster-wrap"><table class="roster" id="rosterTable"></table></div>
+  </section>
+
+  <section class="block" id="sources">
+    <div class="block-head">
+      <div class="eyebrow">Appendix B</div>
+      <h2>Sources &amp; method</h2>
+    </div>
+    <div id="sourceList"></div>
+  </section>
+</main>
+<footer class="foot">Agent Playbook · generated <span id="gen"></span> · read-only build, nothing sent · <a href="#top">back to top ↑</a></footer>
+<div class="toast" id="toast">Copied</div>
+<script src="app.js"></script>
+</body>
+</html>
