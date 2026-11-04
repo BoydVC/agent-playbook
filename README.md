@@ -39,7 +39,7 @@ The hero radar plots all pattern scores; click a spoke to jump to its chapter. A
 6. **First listener: a mail trigger for the Kia statement watch** (M, 1–2 h): Replaces a 5×/week poll with a wake only when the statement arrives
 7. **Printer-health preflight for the Family Times** (M, 1 h): Fewer PDF-only mornings, and Boyd hears when printing is skipped
 8. **One shared "household & decisions" memory note** (M, 1 h): Household facts fixed once for Oscar, Pam, Path and the tutors
-9. **Turn the PowerSchool and X checks into saved scripts** (L, half day): Cuts the two biggest screen-driving lines (Jim 50 min, Vic Tutor 40 min)
+9. **Turn the PowerSchool and X checks into saved scripts** (L, half day): Cuts the two biggest screen-driving lines (Jim 50 min, Sam Tutor 40 min)
 10. **Arena pilot with Dwight + weekly eval scores** (M, 1–2 h + agent time): Real use of the unused Cursor pool and a quality trend you can see
 
 ## Sources (all read-only)
