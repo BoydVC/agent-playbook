@@ -1,6 +1,6 @@
 # Agent Playbook
 
-An interactive field guide. It distills Boyd's bookmarks on **personal agent systems**, **AI coding** and **pstack / @poteto** into 11 concrete patterns, then holds his Grok Bot fleet up against each one.
+An interactive field guide. It distills Alex's bookmarks on **personal agent systems**, **AI coding** and **pstack / @poteto** into 11 concrete patterns, then holds his Grok Bot fleet up against each one.
 
 - **Live:** http://127.0.0.1:4141/ (`./run.sh` starts or restarts it in the background)
 - **Offline:** `dist/agent-playbook-snapshot.html` is a single self-contained file with no network needed
@@ -37,7 +37,7 @@ The hero radar plots all pattern scores; click a spoke to jump to its chapter. A
 4. **Merge or stagger Oscar's back-to-back morning runs** (S, 15 min): Stops re-gathering the same context twice in 20 minutes
 5. **Shared "homework check-in" skill for both tutors** (M, 45 min): Fixes land once instead of twice. Each tutor keeps only its kid-specific rules.
 6. **First listener: a mail trigger for the Kia statement watch** (M, 1–2 h): Replaces a 5×/week poll with a wake only when the statement arrives
-7. **Printer-health preflight for the Family Times** (M, 1 h): Fewer PDF-only mornings, and Boyd hears when printing is skipped
+7. **Printer-health preflight for the Family Times** (M, 1 h): Fewer PDF-only mornings, and Alex hears when printing is skipped
 8. **One shared "household & decisions" memory note** (M, 1 h): Household facts fixed once for Oscar, Pam, Path and the tutors
 9. **Turn the PowerSchool and X checks into saved scripts** (L, half day): Cuts the two biggest screen-driving lines (Jim 50 min, Sam Tutor 40 min)
 10. **Arena pilot with Dwight + weekly eval scores** (M, 1–2 h + agent time): Real use of the unused Cursor pool and a quality trend you can see
@@ -74,6 +74,6 @@ Rebuild: `./build.sh && ./screenshot.sh && python3 tests/smoke_test.py`
 
 ---
 ## Repo notes
-- **Built:** 2026-10-07, by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** 2026-10-07, by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/agent-playbook` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
