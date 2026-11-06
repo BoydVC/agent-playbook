@@ -126,7 +126,7 @@ function render(d){
     d.fleet.map(b => `<tr><td><b>${esc(b.name)}</b></td><td>${esc(b.title || "—")}</td><td class="c">${yes(b.only)}</td><td class="c">${yes(b.anti)}</td><td class="c">${yes(b.quiet)}</td><td class="rt">${b.routines.length ? b.routines.map(esc).join("<br>") : "—"}</td></tr>`).join("");
   const S = d.sources;
   $("#sourceList").innerHTML = [
-    ["Bookmarks", S.atlas, "Bookmark Atlas build (Boyd's saved X bookmarks, Jim's journals, research files). Each quote is re-verified against its original saved file."],
+    ["Bookmarks", S.atlas, "Bookmark Atlas build (Alex's saved X bookmarks, Jim's journals, research files). Each quote is re-verified against its original saved file."],
     ["Bot personas", S.profiles, "Read-only. Persona quotes are verbatim text from the bot's profile.json."],
     ["Workflow skills", S.skills, "Read-only. Skill quotes are verbatim substrings of SKILL.md."],
     ["Bot Island data", S.fleet, `Routines, runs, bot-to-bot messages and computer-use sessions. Local logs end ${S.logs_end}.`],
